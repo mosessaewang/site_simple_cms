@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    padding: 20px 5%;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.menu {
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 30px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.menu ul li {
+    padding-left: 15px;
+}
+
+.menu ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s;
+}
+
+.menu ul li a:hover {
+    color: #3BB8DB;
+}
+
+.search {
+    margin-right: 25px;
+}
+
+.srch {
+    padding: 4px;
+}
+
+.btn {
+    padding: 3px;
+}
+
+.profile-container {
+    overflow: hidden;
+}
+
+.profile-img {
+    width: 45px;          /* ปรับขนาดตามต้องการ */
+    height: 45px;
+    border-radius: 50%;    /* ทำเป็นวงกลม */
+    object-fit: cover;     /* ป้องกันรูปเบี้ยว */
+    border: 2px solid #ccc;
+}
+
+.profile-container a {
+    text-decoration: none;
+}
